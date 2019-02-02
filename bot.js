@@ -12,7 +12,6 @@ if(message.content.startsWith(prefix + "say")) {
 if(!args) return;
 message.channel.send(`${args}`); 
 }//
-}//
 });//
 
 client.login(process.env.TOKEN);
